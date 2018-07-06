@@ -33,4 +33,4 @@ Ok now we can check the jaeger UI!
 * Check the Jaeger UI at http://localhost:16686
 
 We can see one request took much more time then the other -
-But which one?
+But why?

@@ -15,6 +15,7 @@ tracer = init_tracer("gateway")
 def get_repo_contributors(repo_and_owner):
     with tracer.start_span("get_repo_contributors", child_of=get_current_span()) as span:
         url = get_repo.format(repo_and_owner)
+        span.set_tag("github_request_url", url)
         bad_thing_0(url)
         return requests.get(url)
 
@@ -32,8 +33,9 @@ def clean_github_data(repo_contributors):
 @app.route("/git/<owner>/<repo>")
 def main(owner=None, repo=None):
     with tracer.start_span('main-context') as span:
+        repo_name = "{}/{}".format(owner, repo)
+        span.set_tag("repo_name", repo_name)
         with span_in_context(span):
-            repo_name = "{}/{}".format(owner, repo)
             repo_contributors = get_repo_contributors(repo_name).json()
             contributors_commits = clean_github_data(repo_contributors)
             return flask.jsonify(**contributors_commits, indent=2)

@@ -1,18 +1,18 @@
-Step 4 Multiple spans
-=====================
+Step 5 Tags and Logs
+====================
 
-In this part we are going to add multiple spans to our web-app.
+In this part we are going to add tags and logs to our web-app.
 
 ---
 
-1. We added the span to our app context (so we can refrence it in other functions)
+1. We added log to our span:
     ```python
-    with span_in_context(span):
+    span.log_kv({"repo_contributors_size": len(contributors_to_commit)})
     ```
 
 2. Then we added new span for both functions (while refrence thd main span):
     ```python
-    with tracer.start_span("clean_github_data", child_of=get_current_span()) as span:
+    span.set_tag("github_request_url", github_request_url)
     ```
 
 To run
@@ -29,6 +29,9 @@ To run
 Ok now we can check the jaeger UI!
 * Check the Jaeger UI at http://localhost:16686
 
-Great not we can see what function took more time `get_repo_contributors`!
+Great not we can also wee what's the url of the bad request -
+https://api.github.com/repos/fluent/fluentd/stats/contributors
 
-But which request caused it?
+`Mystery solved!`
+
+But didn't we talked about distbuted system?

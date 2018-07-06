@@ -1,32 +1,18 @@
 Jaeger hello world
 ==================
 
-This tutorial is a full walkthrough about using jaeger.
+In this part all we have is a simple flask server.
 
-First we will build a monolith demo app.
-And will graduely improve it by adding more logs, tracking and jaeger capabilties.
+The server get the a owner and and github repo.
 
-Prerequisites
--------------
+It return a Json with the username: number of commits for all of the repo commiters.
 
-* Clone the repo
+To run
+------
+
+* Run the server
     ```bash
-    git clone git@github.com:itielshwartz/jaeger-hello-world.git
+    python main.py
     ```
-* Have a docker installed
-* Have a virtulenv installed
-     ```bash
-        python3 -m venv venv && source venv/bin/activate
-     ```
- * Install the requirements
-     ``` bash
-        pip install requirements.txt
-    ```
+* Check it out http://127.0.0.1:8000/git/pallets/flask
             
-The walkthrough
----------------
-1. Our monolith - Building a github contributes service
-2.
-
-
-

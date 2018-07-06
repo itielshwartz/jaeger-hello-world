@@ -11,7 +11,7 @@ Prerequisites
 
 * Have a docker installed
 * Have a virtulenv installed
- ``` python
+ ``` bash
     python3 -m venv venv && source venv/bin/activate
    ```
 

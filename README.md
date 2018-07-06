@@ -1,5 +1,5 @@
-Jaeger hello world
-==================
+Step 1 the monolith
+===================
 
 In this part all we have is a simple flask server.
 
@@ -14,5 +14,6 @@ To run
     ```bash
     python main.py
     ```
-* Check it out http://127.0.0.1:8000/git/pallets/flask
-            
+* Check it out:
+* http://127.0.0.1:8000/git/fluent/fluentd
+* http://127.0.0.1:8000/git/pallets/flask

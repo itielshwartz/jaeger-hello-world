@@ -2,17 +2,21 @@ import flask
 import requests
 from flask import Flask
 
+from bad_things import bad_thing_0, bad_thing_1
+
 get_repo = "https://api.github.com/repos/{}/stats/contributors"
 app = Flask(__name__)
 
 
 def get_repo_contributors(repo_and_owner):
     url = get_repo.format(repo_and_owner)
+    bad_thing_0(url)
     return requests.get(url)
 
 
 def clean_github_data(repo_contributors):
     contributors_to_commit = {}
+    bad_thing_1()
     for contribute in repo_contributors:
         username = contribute["author"]["login"]
         contributors_to_commit[username] = sum((week["c"] for week in contribute["weeks"]))

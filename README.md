@@ -1,11 +1,11 @@
-Jaeger hello world
-==================
+Step 2 the monolith going wild
+==============================
 
-In this part all we have is a simple flask server.
+In this part we add two simple functions to our main app:
+```python
+from bad_things import bad_thing_0, bad_thing_1
+```
 
-The server get the a owner and and github repo.
-
-It return a Json with the username: number of commits for all of the repo commiters.
 
 To run
 ------
@@ -14,5 +14,8 @@ To run
     ```bash
     python main.py
     ```
-* Check it out http://127.0.0.1:8000/git/pallets/flask
-            
+* Try and access both pages at the same time:
+* http://127.0.0.1:8000/git/fluent/fluentd
+* http://127.0.0.1:8000/git/pallets/flask
+
+Ok both requests seems slow... but why?

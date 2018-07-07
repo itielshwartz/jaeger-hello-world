@@ -26,3 +26,7 @@ Ok now we can check the jaeger UI!
 Sadly we see only one service (the main)...
 
 But again **didn't we talked about distbuted system?**
+
+Next step
+---------
+[Step 7 - Multiple spans](https://github.com/itielshwartz/jaeger-hello-world/tree/step-7-distribute-multiple-spans)

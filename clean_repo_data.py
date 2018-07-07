@@ -19,8 +19,8 @@ def clean_github_data():
         raw_msg = redis_client.blpop(REDIS_KEY_CLEAN_DATA)[1]
         msg = json.loads(raw_msg)
         repo_contributors = msg["data"]
-        headers = msg["headers"]
         queue_to_return_msg = msg["queue_to_return_msg"]
+        headers = msg["headers"]
         span_ctx = tracer.extract(Format.TEXT_MAP, headers)
         span_tags = {tags.SPAN_KIND: "consumer"}
         with tracer.start_span("extracting_contributors_to_commit", child_of=span_ctx, tags=span_tags) as span:

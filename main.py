@@ -24,6 +24,7 @@ def clean_github_data(repo_contributors):
     with tracer.start_span("clean_github_data", child_of=get_current_span()) as span:
         contributors_to_commit = {}
         bad_thing_1()
+        span.log_kv({"repo_contributors_size": len(contributors_to_commit)})
         for contribute in repo_contributors:
             username = contribute["author"]["login"]
             contributors_to_commit[username] = sum((week["c"] for week in contribute["weeks"]))

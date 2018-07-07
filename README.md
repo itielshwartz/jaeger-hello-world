@@ -34,3 +34,9 @@ Ok now we can check the jaeger UI!
 
 We can see one request took much more time then the other -
 But why?
+
+
+Next step
+---
+[Step 4 - Multiple spans](https://github.com/itielshwartz/jaeger-hello-world/tree/step-4-multiple-spans)
+

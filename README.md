@@ -25,12 +25,12 @@ Prerequisites
             
 The walkthrough
 ---------------
-1. [Step 1 - The monolith](https://github.com/itielshwartz/jaeger-hello-world/tree/step-1-the-monolith)
-1. [Step 2 - The monolith going wild](https://github.com/itielshwartz/jaeger-hello-world/tree/step-2-the-monolith-going-wild)
-1. [Step 3 - Adding Jaeger ](https://github.com/itielshwartz/jaeger-hello-world/tree/step-3-adding-jaeger)
-1. [Step 4 - Multiple spans](https://github.com/itielshwartz/jaeger-hello-world/tree/step-4-multiple-spans)
-1. [Step 5 - Tags and logs](https://github.com/itielshwartz/jaeger-hello-world/tree/step-5-tags-and-logs)
-1. [Step 6 - Distribute single span](https://github.com/itielshwartz/jaeger-hello-world/tree/step-6-distribute-single-span)
-1. [Step 7 - Multiple spans](https://github.com/itielshwartz/jaeger-hello-world/tree/step-7-distribute-multiple-spans)
+[Step 1 - The monolith](https://github.com/itielshwartz/jaeger-hello-world/tree/step-1-the-monolith)
+[Step 2 - The monolith going wild](https://github.com/itielshwartz/jaeger-hello-world/tree/step-2-the-monolith-going-wild)
+[Step 3 - Adding Jaeger ](https://github.com/itielshwartz/jaeger-hello-world/tree/step-3-adding-jaeger)
+[Step 4 - Multiple spans](https://github.com/itielshwartz/jaeger-hello-world/tree/step-4-multiple-spans)
+[Step 5 - Tags and logs](https://github.com/itielshwartz/jaeger-hello-world/tree/step-5-tags-and-logs)
+[Step 6 - Distribute single span](https://github.com/itielshwartz/jaeger-hello-world/tree/step-6-distribute-single-span)
+[Step 7 - Multiple spans](https://github.com/itielshwartz/jaeger-hello-world/tree/step-7-distribute-multiple-spans)
 
 

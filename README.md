@@ -6,7 +6,7 @@ In this part we seprated our **HUGE** monolith into microservices.
 * Microservice B - the github proxy - get the repo data
 * Microservice C - clean the github data
 
-`Client -Http-> service A -Http-> Service B -> Service A -redis-> Service B -Redis-> Service A -> Client`
+`Client -Http-> service A -Http-> Service B -> Service A -Redis-> Service B -Redis-> Service A -> Client`
 
 
 To run
@@ -25,4 +25,4 @@ Ok now we can check the jaeger UI!
 
 Sadly we see only one service (the main)...
 
-Bit again **didn't we talked about distbuted system?**
+But again **didn't we talked about distbuted system?**

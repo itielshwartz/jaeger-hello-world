@@ -9,7 +9,8 @@ Game plan
 ---------
 
 First we will build a monolith demo app.
-And will graduely improve it by adding more logs, tracking and jaeger capabilties.
+
+We will graduely improve it by adding more logs, tracking and jaeger capabilties.
 
 Prerequisites
 -------------

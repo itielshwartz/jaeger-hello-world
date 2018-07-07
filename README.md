@@ -35,3 +35,7 @@ https://api.github.com/repos/fluent/fluentd/stats/contributors
 `Mystery solved!`
 
 But didn't we talked about distbuted system?
+
+Next step
+---------
+[Step 6 - Distribute single span](https://github.com/itielshwartz/jaeger-hello-world/tree/step-6-distribute-single-span)

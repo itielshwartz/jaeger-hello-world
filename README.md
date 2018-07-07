@@ -32,3 +32,7 @@ Ok now we can check the jaeger UI!
 Great not we can see what function took more time `get_repo_contributors`!
 
 But which request caused it?
+
+Next step
+---------
+[Step 5 - Tags and logs](https://github.com/itielshwartz/jaeger-hello-world/tree/step-5-tags-and-logs)

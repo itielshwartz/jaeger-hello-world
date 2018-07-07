@@ -19,3 +19,7 @@ To run
 * http://127.0.0.1:8000/git/pallets/flask
 
 Ok both requests seems slow... but why?
+
+Next step
+---------
+[Step 3 - Adding Jaeger](https://github.com/itielshwartz/jaeger-hello-world/tree/step-3-adding-jaeger)

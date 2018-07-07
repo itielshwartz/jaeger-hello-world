@@ -17,3 +17,7 @@ To run
 * Check it out:
 * http://127.0.0.1:8000/git/fluent/fluentd
 * http://127.0.0.1:8000/git/pallets/flask
+
+Next step
+---------
+[Go to step 2 - The monolith going wild](https://github.com/itielshwartz/jaeger-hello-world/tree/step-2-the-monolith-going-wild)

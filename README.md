@@ -3,6 +3,11 @@ Jaeger hello world
 
 This tutorial is a full walkthrough about using jaeger.
 
+It is based on the (great) [opentracing-tutorial](https://github.com/yurishkuro/opentracing-tutorial/tree/master/python).
+
+Game plan
+---------
+
 First we will build a monolith demo app.
 And will graduely improve it by adding more logs, tracking and jaeger capabilties.
 

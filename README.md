@@ -3,7 +3,7 @@ Jaeger hello world
 
 This tutorial is a full walkthrough about using jaeger.
 
-It goes with this [lecture](https://www.slideshare.net/ItielShwartz/distributed-tracing-101)
+It goes with this lecutre [distributed-tracing-101](https://www.slideshare.net/ItielShwartz/distributed-tracing-101).
 
 Game plan
 ---------

@@ -3,7 +3,7 @@ Jaeger hello world
 
 This tutorial is a full walkthrough about using jaeger.
 
-It is based on the (great) [opentracing-tutorial](https://github.com/yurishkuro/opentracing-tutorial/tree/master/python).
+It goes with this [lecture](https://www.slideshare.net/ItielShwartz/distributed-tracing-101)
 
 Game plan
 ---------
@@ -46,3 +46,4 @@ The walkthrough
 [Step 7 - Multiple spans](https://github.com/itielshwartz/jaeger-hello-world/tree/step-7-distribute-multiple-spans)
 
 
+It is based on the (great) [opentracing-tutorial](https://github.com/yurishkuro/opentracing-tutorial/tree/master/python).
